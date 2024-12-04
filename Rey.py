@@ -412,3 +412,9 @@ def main():
         main(board)
 
     s = input("Hello! Welcome to the code of the best coder in this class. There are 3 games you can play, a simulation of dropping needles called buffons needle (1), a really crummy chess game that I coded in an hour (2), or conways game of life (3). Input a number corrisponding with what you want, then hit RETURN >>> ")
+    if s==1:
+        needle()
+    elif s==2:
+        chess()
+    else:
+        conways()
